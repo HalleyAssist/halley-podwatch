@@ -1,0 +1,16 @@
+name: eslint
+on:
+  push:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install modules
+        run: |
+          yarn install
+      
+      - name: Check eslint
+        run: ./node_modules/.bin/eslint src --ext .js,.jsx,.ts,.tsx

@@ -1,0 +1,27 @@
+{
+  "name": "halley-podwatch",
+  "version": "1.0.0",
+  "description": "Reports information on NodeJS application to a Zabbix monitoring server",
+  "main": "src/index.js",
+  "dependencies": {
+    "node-zabbix-sender": "^1.1.0",    
+    "q-lite": "git+https://github.com/HalleyAssist/q-lite.git",
+    "syncfunction": "^1.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HalleyAssist/halley-podwatch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HalleyAssist/halley-podwatch/issues"
+  },
+  "homepage": "https://github.com/HalleyAssist/halley-podwatch#readme"
+}
