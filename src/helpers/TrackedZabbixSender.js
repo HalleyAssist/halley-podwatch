@@ -22,8 +22,8 @@ class TrackedZabbixSender extends NodeZabbixSender {
         }, 60*1000).unref()
     }
 
-    _send(fn){
-        return super.send(fn)
+    async _send(fn){
+        return await super.send(fn)
     }
 
     async send(){
