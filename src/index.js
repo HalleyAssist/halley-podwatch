@@ -6,5 +6,5 @@ module.exports = {
     SyncFunctionMonitor: require('./modules/SyncFunctionMonitor'),
 
     /* helpers */
-    ZabbixSender: require('./helpers/ZabbixSender')
+    TrackedZabbixSender: require('./helpers/TrackedZabbixSender')
 }
