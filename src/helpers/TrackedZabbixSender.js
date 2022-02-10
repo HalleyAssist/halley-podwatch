@@ -6,12 +6,12 @@ class TrackedZabbixSender extends NodeZabbixSender {
     constructor(zabbixSenderOptions){
         super(zabbixSenderOptions)
         this._errors = 0
-        this._lastErrors = 0
+        this._lastErrors = null
     }
 
     start(){
         this._interval = setInterval(() => {
-            if(this._lastErrors === this._errors === 0){
+            if(this._lastErrors === this._errors){
                 return
             }
 
