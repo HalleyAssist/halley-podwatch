@@ -31,7 +31,7 @@ class NodeJsMonitor {
         
         setInterval(()=>{
             this.basicMontioring()
-        }, 60*1000*60).unref()
+        }, 60*1000*5).unref()
     }
 }
 
