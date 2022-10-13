@@ -1,5 +1,5 @@
 const NodeZabbixSender = require('node-zabbix-sender'),
-      Q = require('q-lite'),
+      Q = require('@halleyassist/q-lite'),
       debug = require('debug')('halley-monitoring')
 
 class TrackedZabbixSender extends NodeZabbixSender {

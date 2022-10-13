@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "dependencies": {
     "node-zabbix-sender": "git+https://github.com/HalleyAssist/node-zabbix-sender.git",
-    "q-lite": "git+https://github.com/HalleyAssist/q-lite.git",
+    "@halleyassist/q-lite": "^0.9.6",
     "response-time": "^2.3.2",
     "syncfunction": "^1.1.4"
   },
